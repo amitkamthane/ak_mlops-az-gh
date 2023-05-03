@@ -1,1 +1,1 @@
-# ak_mlops-az-gh
+# MLOps using Azure Machine Learning and GitHub actions
