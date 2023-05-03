@@ -1,0 +1,2 @@
+ipykernel
+yfinance==0.2.*
