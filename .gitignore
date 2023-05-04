@@ -1,6 +1,4 @@
 *.csv
 lightning_logs/
 mlruns/
-jobs/*.yml
 outputs/
-jobs/.logs
