@@ -8,8 +8,8 @@ import argparse
 
 """
 Data download script for YFinance tickers.
-Usage: 
-python jobs/data_download.py --ticker WIPRO.NS --start 366 --end 1
+Usage: Change directory to E:\ak_mlops-az-gh>cd jobs and then execute the following commands   
+python data_download.py --ticker WIPRO.NS --start 366 --end 1
 """
 
 DATA_DIR = "../data"
@@ -78,5 +78,5 @@ if __name__ == "__main__":
             tags: {tags}
             version: {version}
         """)
-        
+        print("completed")
         logging.info(f"YAML file saved to {JOBS_DIR}/data_upload.yml") 
