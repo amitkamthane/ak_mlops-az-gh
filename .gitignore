@@ -1,5 +1,6 @@
 *.csv
-
+jobs/*.yml
+logs/*.log
 lightning_logs/
 mlruns/
 outputs/
